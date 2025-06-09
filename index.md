@@ -23,7 +23,10 @@ Esta exposición presenta las imágenes y contenidos extraídos automáticamente
 - **Año**: 1914
 - **Fuente**: Hemeroteca Digital - Biblioteca Nacional de España
 - **Procesamiento**: Extracción automática con Marker (evaluado y procesado posteriormente)
+  
+## Navegar por la colección
 
+- [Ver Revista Musical Hispano-Americana 1914](_revistas/revista-hispano-americana-1914)
 ---
 
 *Proyecto de preservación digital del patrimonio musical hispano-americano*
