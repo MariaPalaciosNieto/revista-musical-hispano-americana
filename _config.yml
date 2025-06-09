@@ -1,0 +1,10 @@
+title: "Revista Musical Hispano-Americana (1914)"
+description: "Exposición virtual de la histórica Revista Musical Hispano-Americana"
+theme: minima
+url: "https://mariapalacionieto.github.io"
+baseurl: "/revista-musical-hispano-americana"
+
+collections:
+  revistas:
+    output: true
+    permalink: /:collection/:name/
