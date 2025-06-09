@@ -21,7 +21,11 @@ Esta histórica revista de 1914 documenta el panorama musical hispano-americano 
 
 ### Imágenes extraídas:
 
-*Las imágenes se añadirán una vez completado el procesamiento*
+{% for i in (1..30) %}
+![Imagen {{ i }} - Revista Musical Hispano-Americana 1914](/assets/images/revista-1914/image_{{ i }}.png)
+*Imagen {{ i }} - Revista Musical Hispano-Americana, 1914*
+
+{% endfor %}
 
 ---
 
