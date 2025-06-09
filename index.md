@@ -26,7 +26,7 @@ Esta exposición presenta las imágenes y contenidos extraídos automáticamente
   
 ## Navegar por la colección
 
-- [Ver Revista Musical Hispano-Americana 1914](_revistas/revista-hispano-americana-1914)
+- [Ver Revista Musical Hispano-Americana 1914](http://hemerotecadigital.bne.es/hd/gl/results?id=f4fb48e0-3f1d-415e-9851-e891bb20316c)
 ---
 
 *Proyecto de preservación digital del patrimonio musical hispano-americano*
