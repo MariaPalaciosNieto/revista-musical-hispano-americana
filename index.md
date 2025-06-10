@@ -23,24 +23,13 @@ Seguirá apareciendo con una frecuencia mensual (aunque editará números bimest
 
 ## Colección Digital
 
-Esta exposición presenta las imágenes y contenidos extraídos automáticamente de la edición digitalizada, preservando este valioso patrimonio musical para futuras generaciones.
-
----
-
-## 🎯 Acceso Rápido
-
-**¿Primera visita?** Te recomendamos empezar por:
-
-1. **[📖 Explorar la carpeta de revistas](./_revistas/)** - Contenido procesado
-2. **[🖼️ Ver las imágenes](./galeria.html)** - Páginas digitalizadas en galería  
-3. **[📄 Ver páginas individuales](./paginas/)** - Navegar página por página
-4. **[📜 Leer el texto extraído](./activos/imagenes/revista-1914/revista.txt)** - Contenido de texto procesado
+Esta exposición presenta las imágenes del primer número de la Revista Musical Hipanoamericana, extraídas automáticamente de la edición digitalizada en la Hemeroteca de la Biblioteca Nacional de España.
 
 ---
 
 ## Información técnica
 
-- **Año**: 1914
+- **Año**: nº 1, 1914
 - **Fuente**: Hemeroteca Digital - Biblioteca Nacional de España
 - **Procesamiento**: Extracción automática con Marker (evaluado y procesado posteriormente)
 - **Proyecto**: Innovación docente de Humanidades digitales - Universidad de Salamanca
