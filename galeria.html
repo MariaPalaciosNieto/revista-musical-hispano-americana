@@ -149,17 +149,40 @@
     </div>
 
     <script>
-        // Lista de imágenes basada en tu estructura real
-        const images = [];
-        
-        // Generar automáticamente la lista de imágenes según tu estructura
-        for (let i = 1; i <= 50; i++) { // Ajustar el número según cuántas páginas tengas
-            images.push({
-                src: `./activos/imagenes/revista-1914/página_${i}_imagen_${i-1}.jpeg`,
-                title: `Página ${i}`,
-                description: `Página ${i} de la Revista Musical Hispano-Americana de 1914`
-            });
-        }
+        // Lista de imágenes con los nombres exactos que veo en tu GitHub
+        const images = [
+            { src: './activos/imagenes/revista-1914/página_1_imagen_0.jpeg', title: 'Página 1', description: 'Página 1 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_10_imagen_9.jpeg', title: 'Página 10', description: 'Página 10 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_11_imagen_10.jpeg', title: 'Página 11', description: 'Página 11 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_12_imagen_11.jpeg', title: 'Página 12', description: 'Página 12 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_13_imagen_12.jpeg', title: 'Página 13', description: 'Página 13 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_14_imagen_13.jpeg', title: 'Página 14', description: 'Página 14 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_15_imagen_14.jpeg', title: 'Página 15', description: 'Página 15 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_16_imagen_15.jpeg', title: 'Página 16', description: 'Página 16 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_17_imagen_16.jpeg', title: 'Página 17', description: 'Página 17 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_18_imagen_17.jpeg', title: 'Página 18', description: 'Página 18 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_19_imagen_18.jpeg', title: 'Página 19', description: 'Página 19 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_2_imagen_1.jpeg', title: 'Página 2', description: 'Página 2 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_20_imagen_19.jpeg', title: 'Página 20', description: 'Página 20 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_21_imagen_20.jpeg', title: 'Página 21', description: 'Página 21 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_22_imagen_21.jpeg', title: 'Página 22', description: 'Página 22 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_23_imagen_22.jpeg', title: 'Página 23', description: 'Página 23 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_24_imagen_23.jpeg', title: 'Página 24', description: 'Página 24 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_3_imagen_2.jpeg', title: 'Página 3', description: 'Página 3 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_4_imagen_3.jpeg', title: 'Página 4', description: 'Página 4 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_5_imagen_4.jpeg', title: 'Página 5', description: 'Página 5 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_6_imagen_5.jpeg', title: 'Página 6', description: 'Página 6 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_7_imagen_6.jpeg', title: 'Página 7', description: 'Página 7 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_8_imagen_7.jpeg', title: 'Página 8', description: 'Página 8 de la Revista Musical Hispano-Americana de 1914' },
+            { src: './activos/imagenes/revista-1914/página_9_imagen_8.jpeg', title: 'Página 9', description: 'Página 9 de la Revista Musical Hispano-Americana de 1914' }
+        ];
+
+        // Ordenar las imágenes por número de página
+        images.sort((a, b) => {
+            const pageA = parseInt(a.title.split(' ')[1]);
+            const pageB = parseInt(b.title.split(' ')[1]);
+            return pageA - pageB;
+        });
 
         // Función para cargar la galería
         function loadGallery() {
@@ -170,14 +193,30 @@
                 const card = document.createElement('div');
                 card.className = 'image-card';
                 
+                const imgElement = document.createElement('img');
+                imgElement.src = image.src;
+                imgElement.alt = image.title;
+                imgElement.onclick = () => openModal(image.src);
+                
+                // Añadir manejo de errores
+                imgElement.onerror = function() {
+                    console.log('Error cargando imagen:', image.src);
+                    this.src = 'data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjE1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZGRkIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZmlsbD0iIzk5OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlbiBubyBlbmNvbnRyYWRhPC90ZXh0Pjwvc3ZnPg==';
+                    this.onclick = null;
+                };
+                
+                imgElement.onload = function() {
+                    console.log('Imagen cargada correctamente:', image.src);
+                };
+                
                 card.innerHTML = `
-                    <img src="${image.src}" alt="${image.title}" onclick="openModal('${image.src}')">
                     <div class="image-info">
                         <div class="image-title">${image.title}</div>
                         <div class="image-description">${image.description}</div>
                     </div>
                 `;
                 
+                card.insertBefore(imgElement, card.firstChild);
                 gallery.appendChild(card);
             });
         }
