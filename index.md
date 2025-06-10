@@ -10,17 +10,8 @@ Bienvenido a esta exposición digital que presenta la histórica **Revista Music
 
 ## 🎵 Explorar la Exposición
 
-### [📖 Ver Revista Completa](./_revistas/)
-Navega por el contenido completo de la revista de 1914
-
 ### [🖼️ Galería de Imágenes](./galeria.html)
-Explora las ilustraciones, partituras y fotografías
-
-### [📑 Archivo de Texto](./activos/imagenes/revista-1914/revista.txt)
-Accede al contenido de texto extraído automáticamente
-
-### [📄 Páginas Individuales](./paginas/)
-Accede a cada página digitalizada de la revista
+Explora las ilustraciones, partituras y fotografías. Las imágenes han sido extraídas de forma automática con Marker. Después son revisadas y contextualizadas de manera manual
 
 ---
 
