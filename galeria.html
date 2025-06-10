@@ -149,7 +149,7 @@
     </div>
 
     <script>
-// URLs directas desde GitHub (raw)
+// URLs directas desde GitHub (raw) - esto debería funcionar
 const images = [
     { src: 'https://github.com/mariapalaciosnieto/revista-musical-hispano-americana/raw/main/activos/imagenes/revista-1914/página_1_imagen_0.jpeg', title: 'Página 1', description: 'Página 1 de la Revista Musical Hispano-Americana de 1914' },
     { src: 'https://github.com/mariapalaciosnieto/revista-musical-hispano-americana/raw/main/activos/imagenes/revista-1914/página_2_imagen_1.jpeg', title: 'Página 2', description: 'Página 2 de la Revista Musical Hispano-Americana de 1914' },
@@ -180,7 +180,6 @@ const images = [
     { src: 'https://github.com/mariapalaciosnieto/revista-musical-hispano-americana/raw/main/activos/imagenes/revista-1914/página_23_Figura_9.jpeg', title: 'Página 23 - Figura 9', description: 'Página 23, Figura 9 de la Revista Musical Hispano-Americana de 1914' },
     { src: 'https://github.com/mariapalaciosnieto/revista-musical-hispano-americana/raw/main/activos/imagenes/revista-1914/página_24_imagen_31.jpeg', title: 'Página 24', description: 'Página 24 de la Revista Musical Hispano-Americana de 1914' }
 ];
-
         // Ordenar las imágenes por número de página
         images.sort((a, b) => {
             const pageA = parseInt(a.title.split(' ')[1]);
