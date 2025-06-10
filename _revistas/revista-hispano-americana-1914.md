@@ -10,15 +10,15 @@ layout: default
 
 ## Información de la publicación
 - **Año**: 1914
-- **Páginas originales**: 98
-- **Imágenes extraídas**: 30
+- **Imágenes extraídas**: 29
 - **Fuente**: [Hemeroteca Digital BNE](http://hemerotecadigital.bne.es/hd/es/results?id=4b95a63c-9cd8-4b84-a4c2-d274989657f6)
+- **Procesado con**: Marker (extracción automática)
 
 ---
 
 ## Exposición Visual
 
-Esta histórica revista de 1914 documenta el panorama musical hispano-americano de principios del siglo XX. Las imágenes incluyen partituras, retratos de compositores, instrumentos de época y artículos musicales de gran valor histórico.
+Esta histórica revista de 1914 documenta el panorama musical hispano-americano de principios del siglo XX.
 
 ### Galería de imágenes históricas
 
@@ -51,12 +51,11 @@ Esta histórica revista de 1914 documenta el panorama musical hispano-americano 
 ![Imagen 27](/activos/imagenes/revista-1914/_página_8_Imagen_0.jpeg)
 ![Imagen 28](/activos/imagenes/revista-1914/_página_8_Imagen_9.jpeg)
 ![Imagen 29](/activos/imagenes/revista-1914/_página_9_Imagen_4.jpeg)
-![Imagen 30](/activos/imagenes/revista-1914/temp.txt)
 
 ---
 
 ## Sobre esta exposición
 
-Esta colección digital preserva el patrimonio musical hispano-americano de 1914, época dorada de intercambio cultural entre España y América Latina a través de la música.
+Esta colección digital preserva el patrimonio musical hispano-americano de 1914.
 
 **[← Volver al inicio]({{ '/' | relative_url }})**
