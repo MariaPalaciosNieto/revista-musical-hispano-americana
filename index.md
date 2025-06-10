@@ -8,9 +8,27 @@ layout: home
 
 Bienvenido a esta exposición digital que presenta la histórica **Revista Musical Hispano-Americana** de 1914, una publicación pionera que documentó la vida musical de España y América.
 
+## 🎵 Explorar la Exposición
+
+### [📖 Ver Revista Completa](./_revistas/)
+Navega por el contenido completo de la revista de 1914
+
+### [🖼️ Galería de Imágenes](./galeria.html)
+Explora las ilustraciones, partituras y fotografías
+
+### [📑 Archivo de Texto](./activos/imagenes/revista-1914/revista.txt)
+Accede al contenido de texto extraído automáticamente
+
+### [📄 Páginas Individuales](./paginas/)
+Accede a cada página digitalizada de la revista
+
+---
+
 ## Sobre esta publicación
 
-La *Revista Musical Hispano-Americana* Continuadora de Revista musical (Bilbao: 1909-193), fundada por Carlos Gortázar (1864-1926), quien con el seudónimo Ignacio Zubialde es considerado uno de los mejores críticos musicales de su tiempo. Por problemas personales, éste cederá su propiedad a Augusto Barrado y Carroggio (1863-1946), compositor y literato sevillano, entonces crítico musical del diario La época (1849-1936) y redactor de los programas de la Orquesta Filarmónica de Madrid, para que la edite y dirija desde esta ciudad traspasando así la esfera de su influencia a la capital, como principal exponente y fiel reflejo de la modernidad musical española en el siglo XX, tal como así lo refiere Consuelo Carredano (2004). Seguirá apareciendo con una frecuencia mensual (aunque editará números bimestrales y hasta trimestrales) en entregas de 24 páginas, generalmente, aunque variará su paginación, con el nuevo título -Revista musical hispano-americana- como reflejo del interés de traspasar también su difusión y obra cultural y de propaganda a los países de lengua castellana de ultramar. (Extraido de Hemeroteca BNE)
+La *Revista Musical Hispano-Americana* Continuadora de Revista musical (Bilbao: 1909-193), fundada por Carlos Gortázar (1864-1926), quien con el seudónimo Ignacio Zubialde es considerado uno de los mejores críticos musicales de su tiempo. Por problemas personales, éste cederá su propiedad a Augusto Barrado y Carroggio (1863-1946), compositor y literato sevillano, entonces crítico musical del diario La época (1849-1936) y redactor de los programas de la Orquesta Filarmónica de Madrid, para que la edite y dirija desde esta ciudad traspasando así la esfera de su influencia a la capital, como principal exponente y fiel reflejo de la modernidad musical española en el siglo XX, tal como así lo refiere Consuelo Carredano (2004).
+
+Seguirá apareciendo con una frecuencia mensual (aunque editará números bimestrales y hasta trimestrales) en entregas de 24 páginas, generalmente, aunque variará su paginación, con el nuevo título -Revista musical hispano-americana- como reflejo del interés de traspasar también su difusión y obra cultural y de propaganda a los países de lengua castellana de ultramar. (Extraído de Hemeroteca BNE)
 
 ## Colección Digital
 
@@ -18,15 +36,28 @@ Esta exposición presenta las imágenes y contenidos extraídos automáticamente
 
 ---
 
-## Acceso a la revista
+## 🎯 Acceso Rápido
+
+**¿Primera visita?** Te recomendamos empezar por:
+
+1. **[📖 Explorar la carpeta de revistas](./_revistas/)** - Contenido procesado
+2. **[🖼️ Ver las imágenes](./galeria.html)** - Páginas digitalizadas en galería  
+3. **[📄 Ver páginas individuales](./paginas/)** - Navegar página por página
+4. **[📜 Leer el texto extraído](./activos/imagenes/revista-1914/revista.txt)** - Contenido de texto procesado
+
+---
+
+## Información técnica
 
 - **Año**: 1914
 - **Fuente**: Hemeroteca Digital - Biblioteca Nacional de España
 - **Procesamiento**: Extracción automática con Marker (evaluado y procesado posteriormente)
-  
-## Navegar por la colección
+- **Proyecto**: Innovación docente de Humanidades digitales - Universidad de Salamanca
 
-- [Ver Revista Musical Hispano-Americana 1914](http://hemerotecadigital.bne.es/hd/gl/results?id=f4fb48e0-3f1d-415e-9851-e891bb20316c)
+## Enlaces externos
+
+- [🌐 Ver en Hemeroteca Digital BNE](http://hemerotecadigital.bne.es/hd/gl/results?id=f4fb48e0-3f1d-415e-9851-e891bb20316c)
+
 ---
 
 *Proyecto de preservación digital del patrimonio musical hispano-americano*
